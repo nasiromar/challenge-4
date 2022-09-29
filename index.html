@@ -12,8 +12,8 @@
           <h1 class="view-high-score" id="view-high-scores">View high scores</h1>
           <h1 class="timer"> Time : <span id="timer"></span></h1>
     </header>
-    
-    <div class="beginning-container " class="show">
+    <div class="wrapper">
+    <div class="beginning-container show">
         <div class="beginning start">
             <h2> Coding quiz challenge</h2>
             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score by 2 points and your time by 3 seconds!</p>
@@ -24,14 +24,14 @@
 
     <div id="question-container" class="hide">
         <div class="container questions">
-            <div id="question"></div>
+            <div id="question">question</div>
             <div id="answering-btns" class="btn-grid"></div>
          </div>
     </div>
 
 
 
-    <div id="closing container" class="hide">
+    <div id="closing-container" class="hide">
         <div class="container closing">
             <div id="score-keeper">
                 <h2>Completed</h2>
@@ -39,23 +39,23 @@
 
             <form id="initials-spot" class="intials">
                 <p>Enter intials: 
-                    <input type="text" name="initials" id="initials" class="text-input" />
+                    <input type="text" name="initials" id="initials" class="text-input">
                     <button class="btn startend" id="sumbit-score" type="submit">Submit</button> </p>
                 </form>
              </div>
+        </div>
     </div>
-    
     
     <div id="High-score-container" class="hide">
         <div class="high-scores holder">
             <h2 class="high-score"> High scores</h2>
             <ol id="high-scores-list" class="score-list"></ol>
-    </div>
+        </div>
         <button class="btn" id="go-back">Go Back</button>
         <button class="btn" id="clear-high-scores">Clear High Scores</button>
     </div> 
-    </div>  
-</div>
+ 
+
 
 
 <div class="hide" id="correct">
